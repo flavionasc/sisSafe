@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Safe Informatica Control System</title>
+</head>
+<body>
+   <topo><a href="user.html"><img src="images/clientes2"></a></topo>
+   
+   <window>
+      <img src="clientes/client/addclient.png" id="addclient">
+       <form id="form" class="form_clientes" action="clientes/server/envia_clientes.php" method="post" enctype="multipart/form-data">
+           <fieldset class="dados">
+               <label><p class= "label">Nome</p>
+                   <input type="text" id="txtNome" class="txtNome" required="required">
+               </label>
+                 <label><p class= "label">Endereço</p>
+                   <input type="text" id="txtEndereco" class="txtEndereco" required="required">
+               </label>
+                 <label><p class= "label">E-Mail</p>
+                   <input type="text" id="txtEmail" class="txtEmail" required="required">
+               </label>
+                 <label><p class= "label">Telefone</p>
+                   <input type="text" id="txtTelefone" class="txtTelefone" required="required">
+               </label>
+                 <label><p class= "label">Cpf</p>
+                   <input type="text" id="txtCpf" class="txtCpf" required="required">
+               </label>
+               <label><p class= "label">Bairro</p>
+                   <input type="text" id="txtBairro" class="txtBairro" required="required">
+               </label>
+               <label><p class= "label">Cidade</p>
+                   <input type="text" id="txtCidade" class="txtCidade" required="required">
+               </label>
+               <label><p class= "label">Estado</p>
+                   <input type="text" id="txtEstado" class="txtEstado" required="required">
+               </label>
+               
+               <div class="botoes">
+                  <input type="submit" value="cadastrar" id="btnSalvar">
+                  <input type="reset" value="Limpar" id="btnLimpar">
+                   
+               </div>
+           </fieldset>
+       </form>
+   </window>
+    
+</body>
+</html>
